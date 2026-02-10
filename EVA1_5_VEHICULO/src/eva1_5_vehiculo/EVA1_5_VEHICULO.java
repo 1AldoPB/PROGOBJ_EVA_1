@@ -22,14 +22,16 @@ public class EVA1_5_VEHICULO {
         vehiculo.setYear(2025);
         
         Vehiculo[] agencia= new Vehiculo[10];
-        for(int i=0; 1< agencia.length; i++){
+        System.out.println("arreglo: " + agencia);
+        for(int i=0; i< agencia.length; i++){
         agencia[i]= new  Vehiculo();
         agencia[i].setColor("A");
         agencia[i].setKilometraje(i);
         agencia[i].setModelo("M");
         agencia[i].setPrecio(i);
         agencia[i].setYear(i);
-        
+        agencia[i].setMarca("A");
+        agencia[i].imprimirDatos();
                 }
         }
 }
